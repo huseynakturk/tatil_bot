@@ -1,0 +1,135 @@
+body {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.dark-mode .card {
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.dark-mode .card-header {
+    background-color: #454d55;
+    border-bottom-color: #454d55;
+}
+
+.chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.dark-mode .chat-messages {
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+    max-width: 80%;
+    position: relative;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.bot-message {
+    background-color: #e9ecef;
+    color: #212529;
+    margin-left: 1rem;
+}
+
+.dark-mode .bot-message {
+    background-color: #454d55;
+    color: #f8f9fa;
+}
+
+.faq-btn {
+    white-space: normal;
+    text-align: left;
+}
+
+.dark-mode .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.dark-mode .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.dark-mode .form-control {
+    background-color: #454d55;
+    border-color: #454d55;
+    color: #f8f9fa;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #454d55;
+    border-color: #007bff;
+    color: #f8f9fa;
+}
+
+.dark-mode .text-muted {
+    color: #adb5bd !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+    background: #343a40;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #6c757d;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #495057;
+}
+
+#mainInterface {
+    transition: opacity 0.5s ease;
+}
+
+#mainInterface.show {
+    display: block !important;
+    opacity: 1;
+} 

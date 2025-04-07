@@ -1,0 +1,5 @@
+Müşteri Adı,Rezervasyon No,Tarih,Durum
+Ahmet Yılmaz,REZ001,2023-12-15,Onaylandı
+Ayşe Demir,REZ002,2023-12-20,Beklemede
+Mehmet Kaya,REZ003,2023-12-25,İptal Edildi
+Fatma Şahin,REZ004,2023-12-30,Onaylandı 
